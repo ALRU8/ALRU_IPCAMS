@@ -4,6 +4,7 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 __pycache__/
+exe_and_linux/
 *.py[cod]
 *$py.class
 .idea/
