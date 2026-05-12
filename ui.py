@@ -205,7 +205,7 @@ class MainWindow(QMainWindow):
         self.table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
         self.table.verticalHeader().setVisible(False)
         self.table.setAlternatingRowColors(True)
-        # Log console
+        
         self.log_console = QTextEdit()
         self.log_console.setReadOnly(True)
         self.log_console.setMaximumHeight(100)
@@ -267,7 +267,7 @@ class MainWindow(QMainWindow):
             QMessageBox.warning(self, "Ошибка", "Выбери сеть или введи CIDR вручную")
             return
         mode = self.selected_scan_mode()
-        # Убраны проверки чекбоксов, режим поиска задаётся радио-кнопками
+        
         self.scan_button.setEnabled(False)
         self.table.setRowCount(0)
         self.status_label.setText("Сканирование запущено")
