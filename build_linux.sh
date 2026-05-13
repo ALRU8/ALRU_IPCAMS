@@ -15,4 +15,4 @@ if [ "$1" = "--onefile" ]; then
   MODE="--onefile"
 fi
 
-pyinstaller $MODE --noconfirm --clean --windowed --name IPCameraViewer --collect-data onvif --collect-submodules onvif main.py
+pyinstaller $MODE --noconfirm --clean --windowed --name IPCameraViewer --icon src/icon.ico --version-file src/version.txt --collect-data onvif --collect-submodules onvif main.py
