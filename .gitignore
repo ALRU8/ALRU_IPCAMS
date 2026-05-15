@@ -5,7 +5,6 @@
 /httpRequests/
 __pycache__/
 exe_and_linux/
-src/
 *.py[cod]
 *$py.class
 .idea/
